@@ -2,10 +2,6 @@
 <html>
 <head>
 	<title>My Profile</title>
-	<!-- <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"> -->
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.1/css/mdb.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-	 crossorigin="anonymous"> -->
-
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
 	
 	
@@ -40,9 +36,9 @@
 		<nav class="scrolleffects navbar navbar-default">
 			<span class="menu">&#9776;</span>
 			<div class="closemenu sidenav">
-				<a href="javascript:void(0)" class="closebtn">&times;</a>
-				<a href="#game">About</a>
-				<a href="#reference">Projects</a>
+				<a href="javascript:void(0)" target="_blank" class="closebtn">&times;</a>
+				<a href="#game" target="_blank">About</a>
+				<a href="#reference" target="_blank">Projects</a>
 			</div>
 		</nav>
 
@@ -68,10 +64,10 @@
 		<div class="row">
 
 			<div class="col-lg-6">
-				<img class="profile-image img-responsive" src="assets/DSC_0298.jpg">
+				<img class="profile-image img-responsive img-thumbnail" src="assets/DSC_0298.jpg">
 			</div>
 
-			<div class="col-lg-6 profile-descriptions">
+			<div class="col-lg-5 profile-descriptions">
 				<p>
 					My name is Thomas and welcome to my website. I graduated with dobule majors in Finance and Economics and a minor in Statistics. 
 					I have worked in different accounting & financial roles in the past but never truly enjoyed any of my roles. 
@@ -85,7 +81,16 @@
 					<li >Graduated with a full-stack development program from UC Berkeley</li>
 
 				</ul>
+				
 			</div>
+			
+			
+		</div>
+		<div class="row project-button col-md-3 offset-md-9">
+			<button class="btn btn-floating btn-large blue waves-light" mdbPageScroll href="#top-section" mdbWavesEffect style="right:35px; bottom:35px;"
+			[pageScrollDuration]="750">
+				<i class="fa fa-arrow-down"> <a href="#myprojects" style="color: white">Check out my projects</a></i>
+			</button>
 
 		</div>
 
@@ -93,7 +98,7 @@
 	</div>
 
 
-	<div class="container-fluid projects">
+	<div class="container-fluid projects" id="myprojects">
 		<div class="row projectOne">
 			<div class="col-lg-6">
 				<p>
@@ -110,7 +115,7 @@
 				<!-- <video autoplay loop class="project-one-video">
 					<source src="assets/Clip_One.mov" type="video/ogg">
 				</video> -->
-				<a href="https://www.w3schools.com">
+				<a href="https://thomasn72.github.io/NothingL3ft/" target="_blank">
 					<img src="assets/Project_One.png" alt="..." class="img-thumbnail">
 				</a>
 			</div>
@@ -121,11 +126,17 @@
 
 	<div class="container-fluid projects">
 		<div class="row projectOne">
-			<div class="col-lg-6">
+			<div class="col-lg-6 view overlay">
 				<!-- <video autoplay loop class="project-one-video">
 					<source src="assets/Clip_One.mov" type="video/ogg">
 				</video> -->
-				<img src="assets/Project_Two.png" alt="..." class="img-thumbnail">
+				<a href="https://cryptic-atoll-45563.herokuapp.com/" target="_blank">
+					<img src="assets/Project_Two.png" alt="..." class="img-thumbnail">
+					<div class="mask flex-center rgba-blue-strong">
+						<p class="white-text">Please click to check me out!</p>
+					</div>
+
+				</a>
 			</div>
 			<div class="col-lg-6">
 				<p>
@@ -140,34 +151,41 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
+	<div class="card">
 		<div class="row">
-			<div class="card col-lg-4 view overlay" style="width: 18rem;">
+
+			<div class="card col-lg-4 view overlay waves-light" mdbWavesEffect style="width: 18rem;">
 				<img class="img-fluid" src="assets/A1.png" alt="Card image cap">
-				<div class="mask flex-center rgba-red-strong">
-					<p class="white-text">Strong overlay</p>
-				</div>
-
+				<a href="https://thomasn72.github.io/TriviaGame/" target="_blank">
+					<div class="mask flex-center rgba-blue-strong">
+						<p class="white-text">Please click to check me out!</p>
+					</div>
+				</a>
 				<div class="card-body">
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 				</div>
 			</div>
-			<div class="card col-lg-4 view overlay" style="width: 18rem;">
+
+			<div class="card col-lg-4 view overlay waves-light" mdbWavesEffect style="width: 18rem;">
 				<img class="img-fluid" src="assets/A2.png" alt="Card image cap">
-				<div class="mask flex-center rgba-red-strong">
-					<p class="white-text">Strong overlay</p>
-				</div>
+				<a href="https://thomasn72.github.io/RPS-Multiplayer/" target="_blank">
+				</a>
+						<div class="mask flex-center rgba-blue-strong">
+							<p class="white-text">Please click to check me out!</p>
+						</div>
 
 				<div class="card-body">
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 				</div>
 			</div>
-			<div class="card col-lg-4 view overlay" style="width: 18rem;">
-				<img class="img-fluid" src="assets/A3.png" alt="Card image cap">
-				<div class="mask flex-center rgba-red-strong">
-					<p class="white-text">Strong overlay</p>
-				</div>
 
+			<div class="card col-lg-4 view overlay waves-light" mdbWavesEffect style="width: 18rem;">
+				<img class="img-fluid" src="assets/A3.png" alt="Card image cap">
+				<a href="https://thomasn72.github.io/harry_potter_game/" target="_blank">
+					<div class="mask flex-center rgba-blue-strong">
+						<p class="white-text">Please click to check me out!</p>
+					</div>
+				</a>
 				<div class="card-body">
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 				</div>
@@ -175,22 +193,23 @@
 
 
 		</div>
-		
 
 	</div>
-		
-	<footer>Copyright 2017 Thomas</footer>
 
-	
+	<div class="footer-copyright py-3 text-center">
 
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+		<footer> © 2018 Copyright: 2018 Thomas Ng</footer>
+
+	</div>
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
 
 
 	<!-- <script src="semantic/dist/semantic.min.js"></script> -->

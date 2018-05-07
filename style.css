@@ -45,6 +45,10 @@
 	right: 50%;
 	position: absolute; */
 }
+.personal-profile{
+	margin-top: 50px;
+	padding: 100px;
+}
 .profile-image{
 	border-radius: 50%;
 	filter: grayscale(90%);
@@ -164,8 +168,10 @@ li:hover{
 	cursor: pointer;
 }
 
-
-
+.projects{
+	padding: 80px;
+	margin-bottom: 50px;
+}
 
 @import "compass/css3";
 
@@ -211,4 +217,12 @@ section {
 
 @keyframes come-in {
   to { transform: translateY(0); }
+}
+
+.mask{
+	opacity: 0.5;
+}
+
+.card{
+	padding: 50px;
 }

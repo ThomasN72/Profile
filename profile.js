@@ -135,15 +135,6 @@ $("documnt").ready(function () {
     // };
 
 
-// Show sideNav
-sidenav.show();
-
-// Hide sideNav
-sidenav.hide();
-
-// Toggle sideNav
-sidenav.toggle();
-
 
 })
 
