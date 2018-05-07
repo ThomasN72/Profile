@@ -2,7 +2,20 @@
 <html>
 <head>
 	<title>My Profile</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.1/css/mdb.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+	 crossorigin="anonymous"> -->
+
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+	
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+	
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -30,18 +43,26 @@
 				<a href="javascript:void(0)" class="closebtn">&times;</a>
 				<a href="#game">About</a>
 				<a href="#reference">Projects</a>
-				<!-- <a href="#about">About</a> -->
 			</div>
 		</nav>
 
+		
+
 		<div class="row button-group">
-			<button class="homepagebutton1 btn btn-primary">Contact</button>
-			<button class="homepagebutton2 btn btn-primary">Connect With me</button>
+			<button type="button" class="btn btn-rounded btn-primary">
+				<i class="fa fa-linkedin pr-2" aria-hidden="true"></i>Connect With Me
+			</button>
+			<button type="button" class="btn btn-rounded btn-primary">
+				<i class="fa pr-2" aria-hidden="true"></i>Contact
+			</button>
+
+			<!-- <button class="homepagebutton1 ui inverted teal button">Contact</button> -->
+			<!-- <button class="homepagebutton2 ui inverted teal button">Connect With me</button> -->
 		</div>
 
 	</div>
 	
-	<div class="container-fluid">
+	<div class="container-fluid personal-profile">
 
 
 		<div class="row">
@@ -86,9 +107,12 @@
 				</p>
 			</div>
 			<div class="col-lg-6">
-				<video autoplay loop class="project-one-video">
+				<!-- <video autoplay loop class="project-one-video">
 					<source src="assets/Clip_One.mov" type="video/ogg">
-				</video>
+				</video> -->
+				<a href="https://www.w3schools.com">
+					<img src="assets/Project_One.png" alt="..." class="img-thumbnail">
+				</a>
 			</div>
 				
 
@@ -98,17 +122,16 @@
 	<div class="container-fluid projects">
 		<div class="row projectOne">
 			<div class="col-lg-6">
-				<video autoplay loop class="project-one-video">
+				<!-- <video autoplay loop class="project-one-video">
 					<source src="assets/Clip_One.mov" type="video/ogg">
-				</video>
+				</video> -->
+				<img src="assets/Project_Two.png" alt="..." class="img-thumbnail">
 			</div>
 			<div class="col-lg-6">
 				<p>
-					"Up to 40 percent of the food in the United States is never eaten. But at the same time, one in eight Americans struggles
-					to put enough food on the table." - NRDC NothingL3ft is a the first project built to hope resolve food waste problems.
-					The site uses firebase as the server and allows users and restaurants to login to sell food in a discounted prices. The
-					idea is to hope restauratns to list unsold food in a discounted prices to provide a good platform for consumers to purchase
-					food online.
+					OneApp was a second project where my wife and I wanted to build a holistic school applications for students especially students around the world.
+					Each year, less than 30% students from the US chose to move to a different college out of state. At the same time, over 100,000 international students enrolled to one of the US colleges. 
+					There is this tremendous market where my wife and I hope to bring students around the world together, not only to study abroad but to understand different cultures and traditions around the wrold. 
 	
 				</p>
 			</div>
@@ -117,7 +140,60 @@
 		</div>
 	</div>
 
+	<div class="container-fluid">
+		<div class="row">
+			<div class="card col-lg-4 view overlay" style="width: 18rem;">
+				<img class="img-fluid" src="assets/A1.png" alt="Card image cap">
+				<div class="mask flex-center rgba-red-strong">
+					<p class="white-text">Strong overlay</p>
+				</div>
+
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+			<div class="card col-lg-4 view overlay" style="width: 18rem;">
+				<img class="img-fluid" src="assets/A2.png" alt="Card image cap">
+				<div class="mask flex-center rgba-red-strong">
+					<p class="white-text">Strong overlay</p>
+				</div>
+
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+			<div class="card col-lg-4 view overlay" style="width: 18rem;">
+				<img class="img-fluid" src="assets/A3.png" alt="Card image cap">
+				<div class="mask flex-center rgba-red-strong">
+					<p class="white-text">Strong overlay</p>
+				</div>
+
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+
+
+		</div>
+		
+
+	</div>
+		
+	<footer>Copyright 2017 Thomas</footer>
+
 	
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+
+
+	<!-- <script src="semantic/dist/semantic.min.js"></script> -->
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<script src="profile.js"></script>
 
