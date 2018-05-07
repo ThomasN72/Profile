@@ -4,7 +4,6 @@ $("documnt").ready(function () {
             width: "250px",
         })
     })
-
     scaleVideoContainer();
 
     initBannerVideoSize('.video-container .poster img');
@@ -95,7 +94,7 @@ $("documnt").ready(function () {
             
             console.log("i", i)
             // console.log(typeof i)
-            var colorArray = [255,255,255,i/200];            
+            var colorArray = [83,162,190,i/200];            
             $("nav").css({"backgroundColor": "rgba(" + colorArray.join() +")"})
             // if($(".menu").css("width")<"40px"){
                 $(".menu").css("width", 10+i+"px")
@@ -114,7 +113,7 @@ $("documnt").ready(function () {
         if ($(window).scrollTop() > 600) {
             $(".projects").addClass("come-in")
         }
-        if ($(window).scrollTop() > 2000) {
+        if ($(window).scrollTop() > 1750) {
             $(".card").addClass("come-in")
         }
 
