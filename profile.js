@@ -108,12 +108,16 @@ $("documnt").ready(function () {
             });
             $("nav").css("background-color", "transparent")
         }
-        if ($(window).scrollTop() > 150) {
+        if ($(window).scrollTop() > 180) {
             $(".personal-profile").addClass("come-in")
         }
-        if ($(window).scrollTop() > 350) {
+        if ($(window).scrollTop() > 600) {
             $(".projects").addClass("come-in")
         }
+        if ($(window).scrollTop() > 2000) {
+            $(".card").addClass("come-in")
+        }
+
     });
     // $(window).scroll(function () {
     //     console.log($(window).scrollTop());
