@@ -94,7 +94,7 @@ $("documnt").ready(function () {
             
             console.log("i", i)
             // console.log(typeof i)
-            var colorArray = [83,162,190,i/200];            
+            var colorArray = [48,74,106,i/200];            
             $("nav").css({"backgroundColor": "rgba(" + colorArray.join() +")"})
             // if($(".menu").css("width")<"40px"){
                 $(".menu").css("width", 10+i+"px")
