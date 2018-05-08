@@ -255,18 +255,15 @@ padding: 20px;
 	/* width: 100%: */
 }
 .icons{
-		    margin-left: auto;
-    margin-right: auto;
-
+	margin-left: auto;
+    	margin-right: auto;
 	width: 5%;
 	height: 5%;
 	
 }
 .other-icons{
 	margin-left: auto;
-    margin-right: auto;
-	/* width: 40%;
-	height: 40%; */
+    	margin-right: auto;
 }
 .contact-information{
 	padding: 50px;
