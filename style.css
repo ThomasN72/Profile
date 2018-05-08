@@ -20,12 +20,10 @@
 .button-group{
 	top: 60%;
 	bottom: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
 	width: 100%;
-	/* display: block; */
-	/* text-align: center; */
 	position: absolute;
 }
 .button-group button{
