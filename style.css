@@ -213,6 +213,7 @@ button a{
 }
 .come-in {
   transform: translateY(150px);
+
   animation: come-in 0.8s ease forwards;
 }
 .come-in:nth-child(odd) {
@@ -234,6 +235,7 @@ button a{
 
 .card{
 	padding: 50px;
+	margin-bottom: 50px;
 }
 
 .img-thumbnail{
@@ -262,11 +264,15 @@ padding: 20px;
 	
 }
 .other-icons{
-			    margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
+	/* width: 40%;
+	height: 40%; */
+}
+.contact-information{
+	padding: 50px;
+}
 
-	width: 10%;
-	height: 10%;
-
-
+.list-unstyled{
+	font-size: 20px;
 }
